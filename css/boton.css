@@ -1,0 +1,109 @@
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    color: #041b69e7;
+    font-size: 50px;
+}
+
+form{
+    font-size:medium;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	width:400px;
+	padding:16px;
+	border-radius:10px;
+	margin:auto;
+	background-color:#ccc;
+}
+
+form label{
+	width:72px;
+	font-weight:bold;
+	display:inline-block;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"]
+{   
+
+	width:180px;
+	padding:3px 10px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;
+	margin:8px 0;
+	display:inline-block;
+}
+
+select{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width:50%;
+	padding:8px 16px;
+	margin-top:32px;
+	border:1px solid #000;
+	border-radius:5px;
+	display:block;
+
+}
+
+form input[type="submit"],
+form input[type="reset"]
+
+{
+
+	width:100%;
+	padding:8px 16px;
+	margin-top:32px;
+	border:1px solid #000;
+	border-radius:5px;
+	display:block;
+	color:#fff;
+	background-color:#000;
+} 
+
+form input[type="submit"]:hover{
+	cursor:pointer;
+}
+
+textarea{
+	width:100%;
+	height:100px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;			
+	margin:8px 0;
+	/*resize: vertical | horizontal | none | both*/
+	resize:none;
+	display:block;
+}
+.botonelementos{
+    font-size: small;
+    
+    background-color: rgba(0, 255, 255, 0.61);
+    display: inline-block;
+    
+    text-decoration: none;
+    color:black;
+    
+    border-radius: 10px;
+    }
+
+
+
+
+table {
+    width: 100%;
+    border: 1px solid #000;
+    font-family: 'Times New Roman', Times, serif;
+ }
+ th, td {
+    width: 25%;
+    text-align: left;
+    vertical-align: top;
+    border: 1px solid #000;
+    border-collapse: collapse;
+    padding: 0.3em;
+ }
+ caption {
+    padding: 0.3em;
+ }
